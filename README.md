@@ -1,13 +1,10 @@
-flag-icon-css
-=============
-[![npm version](https://badge.fury.io/js/flag-icon-css.svg)](https://badge.fury.io/js/flag-icon-css)
-[![Bower version](https://badge.fury.io/bo/flag-icon-css.svg)](https://badge.fury.io/bo/flag-icon-css)
+# flag-icon-css
 
-A collection of all country flags in SVG — plus the CSS for easier integration.
-See the [demo](http://lipis.github.io/flag-icon-css/).
+> A collection of all country flags in SVG — plus the CSS for easier integration.
+> See the [demo](http://flag-icon-css.lip.is).
 
-Install
--------
+## Install
+
 You can either [download](https://github.com/lipis/flag-icon-css/archive/master.zip)
 the whole project as is or install it via Bower or NPM:
 
@@ -16,12 +13,11 @@ $ bower install flag-icon-css
 $ npm install flag-icon-css
 ```
 
-Usage
------
+## Usage
 
 For using the flags inline with text add the classes `.flag-icon` and
 `.flag-icon-xx` (where `xx` is the
-[ISO 3166-1-alpha-2 code](http://www.iso.org/iso/country_names_and_code_elements)
+[ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/)
 of a country) to an empty `<span>`. If you want to have a squared version flag
 then add the class `flag-icon-squared` as well. Example:
 
@@ -44,8 +40,7 @@ Which means that the flag is just going to appear in the middle of an element, s
 you will have to set manually the correct size of 4 by 3 ratio or if it's squared
 add also the `flag-icon-squared` class.
 
-Development
------------
+## Development
 
 Run the `npm install` to install the dependencies after cloning the project and
 you'll be able to:
@@ -73,8 +68,7 @@ need from the
 [`flag-icon-list.less`](https://github.com/lipis/flag-icon-css/blob/master/less/flag-icon-list.less)
 file and build it again.
 
-Credits
--------
+## Credits
 
 This project wouldn't exist without the awesome and now deleted collection of
 SVG flags by [koppi](https://github.com/koppi).
